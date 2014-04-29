@@ -1,0 +1,4 @@
+<code>
+$pagenum	= isset( $_GET['pagenum'] ) ? intval( $_GET['pagenum'] ) : 1;
+		$ppp		= get_option('frontier_post_ppp') ? get_option('frontier_post_ppp') : 5;
+	
